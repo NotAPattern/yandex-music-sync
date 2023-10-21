@@ -1,0 +1,13 @@
+{
+  "name": "yandex-music-sync",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:NotAPattern/yandex-music-sync.git",
+  "author": "Nikita Karatsev <nikita.karatsev@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^111.0.3",
+    "typescript": "^5.2.2"
+  }
+}

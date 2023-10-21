@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Yandex music playing sync",
+    "version": "1.0",
+    "description": "Extension to sync playing music from mobile to web",
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://music.yandex.ru/*", "*://music.yandex.com/*"],
+        "js": ["src/index.ts"]
+      }
+    ]
+  }
+  
