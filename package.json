@@ -8,6 +8,13 @@
   "private": false,
   "devDependencies": {
     "@types/firefox-webext-browser": "^111.0.3",
-    "typescript": "^5.2.2"
+    "@types/node": "^20.8.9",
+    "typescript": "^5.2.2",
+    "web-ext-plugin": "^2.8.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "ym-api": "^1.2.1"
   }
 }
